@@ -1,0 +1,812 @@
+ANALISE POLITICA - AMERICA DO SUL (exceto Brasil)
+Referencia: abril de 2026
+Metodologia: Eixo 1 (Economico/Social) e Eixo 2 (Politico/Institucional)
+Escala: 0 a 100 em ambos os eixos
+
+================================================================================
+PAIS: ARGENTINA
+================================================================================
+
+Governo atual: Javier Milei (La Libertad Avanza) — presidente desde dezembro de 2023.
+
+════════════════════════════════════════
+EIXO 1 — ECONOMICO/SOCIAL (Esquerda <-> Direita)
+════════════════════════════════════════
+
+| Criterio                         | Peso | Nota (0-100) | Contribuicao |
+|----------------------------------|------|--------------|--------------|
+| Estado e mercado                 | 40%  | 92           | 36,8         |
+| Protecao social e redistribuicao | 35%  | 88           | 30,8         |
+| Valores culturais e costumes     | 25%  | 72           | 18,0         |
+| NOTA FINAL EIXO 1                | 100% | —            | 85,6         |
+
+Faixa Eixo 1: EXTREMA DIREITA (81–100)
+
+Justificativa por criterio:
+- Estado e mercado (92): Milei implementou o programa mais radical de desregulacao e
+  reducao do Estado da historia argentina recente. Fechamento de ministerios, eliminacao
+  de subsidios energeticos e de transporte, tentativa de privatizacao ampla de empresas
+  publicas (Aerolineas Argentinas, meios de comunicacao), eliminacao do deficit fiscal
+  a qualquer custo. A retórica e a pratica de governo apontam para minimizacao extrema
+  da intervencao estatal.
+- Protecao social (88): Cortes severos em transferencias sociais, congelamento de
+  aposentadorias em termos reais, reducao de programas de assistencia. A logica do
+  governo e de responsabilidade individual maxima e reducao drastica do Estado de
+  bem-estar. Impacto direto nos indicadores de pobreza, que cresceram no curto prazo.
+- Valores culturais (72): Milei e anti-agenda progressista (contra feminismo de Estado,
+  contra politicas de genero, contra educacao sexual nas escolas), mas nao e um
+  conservador religioso classico. Sua postura e mais libertaria no campo dos costumes
+  do que teocrática, ainda que a vice-presidente Victoria Villarruel represente ala
+  mais conservadora tradicional.
+
+════════════════════════════════════════
+EIXO 2 — POLITICO (Libertario <-> Autoritario)
+════════════════════════════════════════
+
+| Criterio                          | Peso | Nota (0-100) | Contribuicao |
+|------------------------------------|------|--------------|--------------|
+| Democracia e alternancia de poder | 40%  | 28           | 11,2         |
+| Judiciario e Estado de Direito    | 30%  | 30           | 9,0          |
+| Liberdade de imprensa e expressao | 30%  | 32           | 9,6          |
+| NOTA FINAL EIXO 2                 | 100% | —            | 29,8         |
+
+Faixa Eixo 2: DEMOCRACIA CONSOLIDADA (21–35)
+
+Justificativa por criterio:
+- Democracia e alternancia (28): A alternancia de poder funcionou normalmente com a
+  eleicao de Milei. Ha tensao significativa com o Congresso (Milei governa por decretos
+  de necessidade e urgencia quando nao tem maioria). A retórica anti-institucional e
+  constante, mas o sistema democratico nao foi formalmente subvertido.
+- Judiciario (30): O Poder Judiciario mantem independencia relativa. Houve controversias
+  em nomeacoes e pressoes politicas, mas decisoes contrarias ao governo foram respeitadas.
+  O Estado de Direito, ainda que tensionado, permanece funcional.
+- Liberdade de imprensa (32): A imprensa opera livremente do ponto de vista formal.
+  Milei ataca a midia corporativa sistematicamente via redes sociais, criando ambiente
+  hostil. Nao ha censura institucional, mas a pressao simbolica e persistente.
+
+CLASSIFICACAO FINAL: EXTREMA DIREITA DEMOCRATICA
+
+RESUMO:
+A Argentina e governada por Javier Milei, economista ultraliberal e autodeclarado
+"anarcocapitalista". Seu governo representa o experimento de desmantelamento do Estado
+mais radical ja visto na America do Sul em democracia. No plano economico, implementou
+ajuste fiscal brutal, desregulacao massiva e iniciou privatizacoes ineditas. Culturalmente,
+e anti-progressista mas sem agenda teocrática consolidada. No plano institucional, a
+democracia argentina mantem seus mecanismos de controle apesar das tensoes: o Congresso
+resiste, o Judiciario funciona e a imprensa opera livremente, ainda que sob clima de
+hostilidade sistematica do Executivo.
+
+================================================================================
+PAIS: BOLIVIA
+================================================================================
+
+Governo atual: Luis Arce (Movimento ao Socialismo - MAS), presidente desde 2020.
+Contexto: tentativa de golpe frustrada em junho de 2024; fratura profunda no MAS entre
+Arce e Evo Morales; eleicoes gerais realizadas em agosto de 2025 (resultado com incerteza
+em relacao a posse, dado o grau de instabilidade institucional).
+
+════════════════════════════════════════
+EIXO 1 — ECONOMICO/SOCIAL (Esquerda <-> Direita)
+════════════════════════════════════════
+
+| Criterio                         | Peso | Nota (0-100) | Contribuicao |
+|----------------------------------|------|--------------|--------------|
+| Estado e mercado                 | 40%  | 18           | 7,2          |
+| Protecao social e redistribuicao | 35%  | 22           | 7,7          |
+| Valores culturais e costumes     | 25%  | 38           | 9,5          |
+| NOTA FINAL EIXO 1                | 100% | —            | 24,4         |
+
+Faixa Eixo 1: ESQUERDA (21–35)
+
+Justificativa por criterio:
+- Estado e mercado (18): A Constituicao de 2009 consagrou o "Estado Plurinacional" com
+  forte presenca publica. YPFB (petroleo e gas), ENTEL (telecomunicacoes), BOA (aviacaoo),
+  Banco Union e demais empresas estatais dominam setores estrategicos. A economia e
+  planificada em graus variaveis, com mercado interno controlado por politicas de preco
+  e cambio.
+- Protecao social (22): Programas como Bono Juancito Pinto (criancas em idade escolar),
+  Renta Dignidad (idosos) e Bono Juana Azurduy (maes) foram marcas do governo Morales
+  e continuados por Arce. A reducao da pobreza extrema entre 2006 e 2014 foi significativa.
+  A crise economica dos ultimos anos deteriorou a capacidade de entrega.
+- Valores culturais (38): O Estado Plurinacional reconhece 36 nacoes indigenas e tem
+  agenda progressista de representacao identitaria. Porem, as comunidades rurais e
+  indigenas em geral sustentam valores tradicionais. Nao ha agenda LGBTQ+ avancada.
+  Ha tensao entre o progressismo urbano da lideranca e os valores conservadores da base.
+
+════════════════════════════════════════
+EIXO 2 — POLITICO (Libertario <-> Autoritario)
+════════════════════════════════════════
+
+| Criterio                          | Peso | Nota (0-100) | Contribuicao |
+|------------------------------------|------|--------------|--------------|
+| Democracia e alternancia de poder | 40%  | 62           | 24,8         |
+| Judiciario e Estado de Direito    | 30%  | 65           | 19,5         |
+| Liberdade de imprensa e expressao | 30%  | 55           | 16,5         |
+| NOTA FINAL EIXO 2                 | 100% | —            | 60,8         |
+
+Faixa Eixo 2: REGIME HIBRIDO (46–60) — limiar superior
+
+Justificativa por criterio:
+- Democracia e alternancia (62): Em junho de 2024, o general Juan Jose Zuniga liderou
+  uma tentativa de golpe de Estado com tanques na Plaza Murillo. O episodio revelou
+  fragilidade institucional. O MAS e profundamente fraturado. A polarizacao entre Arce
+  e Morales comprometeu a governabilidade. Eleicoes ocorrem, mas competicao real e
+  prejudicada pelo controle de recursos estatais pelo partido dominante.
+- Judiciario (65): O Tribunal Constitucional Plurinacional foi instrumentalizado para
+  decisoes favoraveis ao MAS (como tentar habilitar candidatura de Morales). As eleicoes
+  judiciais de 2017 e 2023 foram amplamente criticadas. O sistema de Justica e altamente
+  politizado.
+- Liberdade de imprensa (55): Jornalistas relatam autocensura crescente. Ha pressoes
+  sobre meios criticos ao governo, concentracao de publicidade oficial como mecanismo
+  de controle. O ambiente e de pluralismo limitado com pressoes sistemicas.
+
+CLASSIFICACAO FINAL: ESQUERDA / REGIME HIBRIDO
+
+RESUMO:
+A Bolivia viveu um dos momentos mais dramaticos de sua historia recente com a tentativa
+de golpe de junho de 2024, que expoe a fragilidade das instituicoes e a profunda crise
+dentro do proprio MAS. O partido, que governou o pais com Evo Morales por mais de uma
+decada, esta dilacerado entre as facoes de Arce e Morales. Economicamente, mantem a
+orientacao estatizante e redistributiva herdada do ciclo evista, agora sob forte pressao
+fiscal: as reservas internacionais colapsaram e a crise do gas natural compromete as
+exportacoes. O pais combina politicas de esquerda com institucoes enfraquecidas e
+dependencia historica de um partido dominante.
+
+================================================================================
+PAIS: CHILE
+================================================================================
+
+Governo atual: Em novembro-dezembro de 2025, o Chile realizou eleicoes presidenciais.
+Com base nas tendencias politicas consolidadas ate meados de 2025, o cenario mais
+provavel apontava para a eleicao de Jose Antonio Kast (Partido Republicano, direita) ou
+candidato de centro-direita da Coalicion por Chile. Gabriel Boric (Frente Amplo) nao
+podia se recandidatar. A analise abaixo reflete o perfil institucional chileno e a
+orientacao provavel do governo inaugurado em marco de 2026.
+
+════════════════════════════════════════
+EIXO 1 — ECONOMICO/SOCIAL (Esquerda <-> Direita)
+════════════════════════════════════════
+
+| Criterio                         | Peso | Nota (0-100) | Contribuicao |
+|----------------------------------|------|--------------|--------------|
+| Estado e mercado                 | 40%  | 68           | 27,2         |
+| Protecao social e redistribuicao | 35%  | 62           | 21,7         |
+| Valores culturais e costumes     | 25%  | 75           | 18,75        |
+| NOTA FINAL EIXO 1                | 100% | —            | 67,65        |
+
+Faixa Eixo 1: DIREITA (65–80)
+
+Justificativa por criterio:
+- Estado e mercado (68): O Chile tem um dos modelos economicos mais abertos da regiao,
+  com AFP (previdencia privada), ISAPRE (saude privada), educacao com amplo espaco
+  privado. A direita chilena, especialmente Kast, defende aprofundamento desse modelo.
+  Ha resistencia a estatizacoes, a aumentos de impostos corporativos e a expansao do
+  papel do Estado na economia.
+- Protecao social (62): A direita chilena defende ajustes no sistema de pensoes que
+  preservem o componente privado. Ha resistencia a universalizacao rapida da saude e
+  educacao via Estado. A agenda social e residual comparada a modelos europeus.
+- Valores culturais (75): Kast e outros lideres da direita chilena sao abertamente
+  conservadores: contrarios ao aborto, com posicoes duras sobre migracao e seguranca,
+  criticos da agenda de genero implementada por Boric. A influencia religiosa na direita
+  chilena e significativa.
+
+════════════════════════════════════════
+EIXO 2 — POLITICO (Libertario <-> Autoritario)
+════════════════════════════════════════
+
+| Criterio                          | Peso | Nota (0-100) | Contribuicao |
+|------------------------------------|------|--------------|--------------|
+| Democracia e alternancia de poder | 40%  | 18           | 7,2          |
+| Judiciario e Estado de Direito    | 30%  | 20           | 6,0          |
+| Liberdade de imprensa e expressao | 30%  | 22           | 6,6          |
+| NOTA FINAL EIXO 2                 | 100% | —            | 19,8         |
+
+Faixa Eixo 2: LIBERTARIO (0–20) — limiar
+
+Justificativa por criterio:
+- Democracia e alternancia (18): O Chile e uma das democracias mais solidas da America
+  Latina. A alternancia e regular e aceita. As eleicoes de 2025 seguiram o padrao de
+  competicao real e resultado reconhecido. O processo de redemocratizacao pos-Pinochet
+  consolidou instituicoes robustas.
+- Judiciario (20): O Poder Judiciario chileno e reconhecidamente independente. O
+  Tribunal Constitucional e a Corte Suprema funcionam sem subordinacao ao Executivo.
+  O rule of law e um dos mais solidos da regiao.
+- Liberdade de imprensa (22): A imprensa chilena opera com liberdade, pluralismo
+  relevante e protecao juridica aos jornalistas. Ha concentracao mediatica (grupos El
+  Mercurio e Copesa), mas pluralismo digital e online compensam parcialmente.
+
+CLASSIFICACAO FINAL: DIREITA DEMOCRATICA / LIBERTARIA
+
+RESUMO:
+O Chile e um caso peculiar na America do Sul: instituicoes democraticas solidissimas
+combinadas com uma cultura politica que oscila entre esquerda e direita sem romper com
+o arcabouco liberal. Boric (2022-2026) tentou reformas estruturais — tributaria, previdenciaria,
+constitucional — e foi barrado em sua maioria por um Congresso refratario e por dois
+referendos constitucionais rejeitados. A eleicao de 2025, realizada em contexto de forte
+preocupacao com seguranca publica e critica ao progressismo cultural, favoreceu a direita.
+O Chile mantem posicao de destaque em liberdades civis, rule of law e alternancia, mesmo
+com mudancas relevantes na orientacao economica e cultural do governo.
+
+================================================================================
+PAIS: COLOMBIA
+================================================================================
+
+Governo atual: Gustavo Petro (Pacto Historico / Colombia Humana), presidente desde
+agosto de 2022.
+
+════════════════════════════════════════
+EIXO 1 — ECONOMICO/SOCIAL (Esquerda <-> Direita)
+════════════════════════════════════════
+
+| Criterio                         | Peso | Nota (0-100) | Contribuicao |
+|----------------------------------|------|--------------|--------------|
+| Estado e mercado                 | 40%  | 38           | 15,2         |
+| Protecao social e redistribuicao | 35%  | 32           | 11,2         |
+| Valores culturais e costumes     | 25%  | 42           | 10,5         |
+| NOTA FINAL EIXO 1                | 100% | —            | 36,9         |
+
+Faixa Eixo 1: CENTRO-ESQUERDA (36–45)
+
+Justificativa por criterio:
+- Estado e mercado (38): Petro propoe maior intervencao estatal, tributacao progressiva
+  sobre grandes fortunas e empresas, reducao da exploracao de petroleo e carvao em
+  favor de transicao energetica. Nao chegou a estatizacoes amplas, mas promoveu reforma
+  tributaria significativa e busca ampliar presenca do Estado em setores estrategicos.
+- Protecao social (32): Tentou uma reforma do sistema de saude para desmercantiliza-lo
+  (parcialmente bloqueada pelo Congresso). Programas de transferencia de renda, reforma
+  agraria parcial, valorizacao do salario minimo. Agenda redistributiva ambiciosa mas
+  com implementacao limitada pela oposicao parlamentar.
+- Valores culturais (42): Petro tem agenda progressista (ex-guerrilheiro do M-19,
+  discurso anti-estabelecimento). Mas a Colombia e um dos paises mais religiosos e
+  socialmente conservadores da regiao. Sua agenda cultural encontra forte resistencia
+  da sociedade e do Congresso. O equilibrio efetivo e de centro.
+
+════════════════════════════════════════
+EIXO 2 — POLITICO (Libertario <-> Autoritario)
+════════════════════════════════════════
+
+| Criterio                          | Peso | Nota (0-100) | Contribuicao |
+|------------------------------------|------|--------------|--------------|
+| Democracia e alternancia de poder | 40%  | 40           | 16,0         |
+| Judiciario e Estado de Direito    | 30%  | 38           | 11,4         |
+| Liberdade de imprensa e expressao | 30%  | 42           | 12,6         |
+| NOTA FINAL EIXO 2                 | 100% | —            | 40,0         |
+
+Faixa Eixo 2: DEMOCRACIA COM FALHAS (36–45)
+
+Justificativa por criterio:
+- Democracia e alternancia (40): A democracia colombiana funciona institucionalmente,
+  com eleicoes competitivas e alternancia. Mas o pais enfrenta limitacoes estruturais
+  severas: guerrilha das dissidencias das FARC (Estado Mayor Central), grupos armados
+  paramilitares, narcotráfico, violencia politica contra lideres sociais e candidatos.
+  O Estado nao exerce soberania sobre porcoes significativas do territorio.
+- Judiciario (38): Relativamente independente para os padroes regionais. Petro teve
+  conflitos com a Procuradoria-Geral, Fiscalia e Congresso. Mas o Judiciario bloqueou
+  reformas que considerou inconstitucionais, demonstrando autonomia relevante.
+- Liberdade de imprensa (42): A Colombia e um dos paises mais perigosos do mundo para
+  jornalistas (violencia de grupos armados, nao do Estado). Autocensura e comum nas
+  regioes controladas por guerrilha ou paramilitares. No eixo urbano ha pluralismo.
+
+CLASSIFICACAO FINAL: CENTRO-ESQUERDA / DEMOCRACIA COM FALHAS
+
+RESUMO:
+Petro governa um pais estruturalmente dividido: ao mesmo tempo em que tenta implementar
+reformas progressistas no Congresso (saude, previdencia, trabalho, agraria), enfrenta
+uma oposicao parlamentar que bloqueou grande parte de sua agenda. A tentativa de governar
+por decreto e de chamar uma Assembleia Constituinte gerou crises institucionais. O pais
+convive com violencia endemica de grupos armados, o que limita o alcance do Estado e
+da democracia real. A Colombia tem as formas da democracia mas nao suas condicoes
+substanciais plenas em vastas regioes do territorio.
+
+================================================================================
+PAIS: EQUADOR
+================================================================================
+
+Governo atual: Daniel Noboa (Acao Democratica Nacional), presidente desde novembro de
+2023, reeleito em abril de 2025.
+
+════════════════════════════════════════
+EIXO 1 — ECONOMICO/SOCIAL (Esquerda <-> Direita)
+════════════════════════════════════════
+
+| Criterio                         | Peso | Nota (0-100) | Contribuicao |
+|----------------------------------|------|--------------|--------------|
+| Estado e mercado                 | 40%  | 68           | 27,2         |
+| Protecao social e redistribuicao | 35%  | 62           | 21,7         |
+| Valores culturais e costumes     | 25%  | 65           | 16,25        |
+| NOTA FINAL EIXO 1                | 100% | —            | 65,15        |
+
+Faixa Eixo 1: DIREITA (65–80) — limiar
+
+Justificativa por criterio:
+- Estado e mercado (68): Noboa e empresario do setor bananeiro e representa o polo
+  pro-mercado. O Equador e dolarizado desde 2000, o que elimina politica monetaria e
+  disciplina fiscalmente o Estado. Noboa busca atrair investimento privado, defender
+  zonas economicas especiais e reduzir a intervencao estatal herdada do correismo.
+- Protecao social (62): A era Correa (2007-2017) construiu um Estado de bem-estar
+  relativamente robusto para a regiao. Noboa nao desmontou completamente esses programas,
+  mas o ajuste fiscal e as prioridades de seguranca reduziram o espaco para politicas
+  sociais expansionistas.
+- Valores culturais (65): Noboa e conservador, com discurso de lei e ordem, influencia
+  religiosa relevante, postura critica a pautas progressistas. Sua eleicao refletiu um
+  giro cultural apos os anos Correa.
+
+════════════════════════════════════════
+EIXO 2 — POLITICO (Libertario <-> Autoritario)
+════════════════════════════════════════
+
+| Criterio                          | Peso | Nota (0-100) | Contribuicao |
+|------------------------------------|------|--------------|--------------|
+| Democracia e alternancia de poder | 40%  | 48           | 19,2         |
+| Judiciario e Estado de Direito    | 30%  | 48           | 14,4         |
+| Liberdade de imprensa e expressao | 30%  | 42           | 12,6         |
+| NOTA FINAL EIXO 2                 | 100% | —            | 46,2         |
+
+Faixa Eixo 2: REGIME HIBRIDO (46–60) — limiar inferior
+
+Justificativa por criterio:
+- Democracia e alternancia (48): Eleicoes ocorrem e houve alternancia. Porem, a crise
+  de seguranca levou Noboa a declarar estado de emergencia, expandir poderes do Executivo
+  e mobilizar Forcas Armadas em operacoes internas. A democracia funciona, mas sob
+  tensao de poderes excepcionais prolongados.
+- Judiciario (48): O sistema judicial equatoriano foi historicamente vulneravel a
+  influencia politica (era Correa usou o Judiciario contra opositores). Com Noboa, ha
+  alguns avancos, mas o sistema segue politizado e com casos de corrupcao entre juizes.
+- Liberdade de imprensa (42): Maior abertura que na era Correa, que criminalizava
+  jornalistas. Mas o contexto de violencia generalizada (crime organizado) cria
+  autocensura pratica significativa.
+
+CLASSIFICACAO FINAL: DIREITA / DEMOCRACIA COM FALHAS (regime hibrido por seguranca)
+
+RESUMO:
+O Equador atravessa uma crise de seguranca sem precedentes. Noboa governa declarando
+"conflito armado interno" contra carteis e gangs (Los Choneros, Los Lobos, Tiguerones),
+num pais que era considerado relativamente pacifico ha uma decada. A estrategia de
+"maos de ferro" e policia e militarizacao foram ratificadas pelo eleitorado em 2025.
+Economicamente, busca investimentos privados e mantem a dolarizacao. O jovem presidente
+(nascido em 1987) representa a geracao de politicos que priorizam seguranca acima de
+qualquer outra pauta — com impacto direto nas liberdades civis e no equilibrio de poderes.
+
+================================================================================
+PAIS: GUIANA
+================================================================================
+
+Governo atual: Irfaan Ali (PPP/Civic — Partido Progressivo do Povo), presidente desde
+agosto de 2020.
+
+════════════════════════════════════════
+EIXO 1 — ECONOMICO/SOCIAL (Esquerda <-> Direita)
+════════════════════════════════════════
+
+| Criterio                         | Peso | Nota (0-100) | Contribuicao |
+|----------------------------------|------|--------------|--------------|
+| Estado e mercado                 | 40%  | 55           | 22,0         |
+| Protecao social e redistribuicao | 35%  | 55           | 19,25        |
+| Valores culturais e costumes     | 25%  | 58           | 14,5         |
+| NOTA FINAL EIXO 1                | 100% | —            | 55,75        |
+
+Faixa Eixo 1: CENTRO-DIREITA (55–64)
+
+Justificativa por criterio:
+- Estado e mercado (55): O PPP historicamente tem orientacao de centro-esquerda com
+  raizes trabalhistas. Mas a descoberta e producao de petroleo offshore (blocos da
+  ExxonMobil e Hess) transformou a Guiana no pais de crescimento economico mais rapido
+  do mundo (2022-2025). O governo adotou postura pragmatica: associacao com capital
+  estrangeiro privado mantendo participacao estatal moderada via GGMC.
+- Protecao social (55): Os royalties do petroleo financiam programas sociais em
+  expansao (cash transfers, habitacao, infraestrutura). Mas o Estado de bem-estar ainda
+  e incipiente para um pais em desenvolvimento acelerado. A distribuicao dos beneficios
+  do petroleo e desigual e tema de debate politico intenso.
+- Valores culturais (58): A Guiana e profundamente conservadora em termos de costumes.
+  A homossexualidade foi criminalizada ate recentemente. A divisao etnico-politica entre
+  indo-guianeses (PPP) e afro-guianeses (PNC) estrutura o debate cultural de forma
+  diferente do eixo progressismo/conservadorismo tipico.
+
+════════════════════════════════════════
+EIXO 2 — POLITICO (Libertario <-> Autoritario)
+════════════════════════════════════════
+
+| Criterio                          | Peso | Nota (0-100) | Contribuicao |
+|------------------------------------|------|--------------|--------------|
+| Democracia e alternancia de poder | 40%  | 38           | 15,2         |
+| Judiciario e Estado de Direito    | 30%  | 35           | 10,5         |
+| Liberdade de imprensa e expressao | 30%  | 35           | 10,5         |
+| NOTA FINAL EIXO 2                 | 100% | —            | 36,2         |
+
+Faixa Eixo 2: DEMOCRACIA COM FALHAS (36–45) — limiar
+
+Justificativa por criterio:
+- Democracia e alternancia (38): As eleicoes de 2020 foram extremamente tensas: houve
+  tentativa de fraude pela entao situacao (APNU+AFC), com contagem paralela fraudulenta
+  exposta por observadores internacionais. A alternancia ocorreu, mas sob forte pressao.
+  O sistema politico e estruturado em linhas etnicas, limitando a competicao programatica.
+- Judiciario (35): Funcional mas com influencia politica. O papel do Judiciario nas
+  eleicoes de 2020 foi central para preservar o resultado, mas o sistema sofre pressoes
+  do poder politico-economico ligado ao petroleo.
+- Liberdade de imprensa (35): Ha meios independentes, mas concentracao e pressao
+  governamental existem. O boom petrolifero criou novos atores com interesses na
+  narrativa publica.
+
+CLASSIFICACAO FINAL: CENTRO / DEMOCRACIA COM FALHAS
+
+RESUMO:
+A Guiana e o maior fenomeno de crescimento economico da decada nas Americas. A producao
+de petroleo offshore transformou um pais de 800 mil habitantes em candidato a economia
+petrolifera de grande porte. Ali governa num contexto de bonanza fiscal, mas enfrenta
+o desafio de distribuir a riqueza de forma equitativa em uma sociedade profundamente
+dividida por etnia. O PPP representa majoritariamente os indo-guianeses descendentes
+de trabalhadores contratados da India, enquanto a oposicao PNC representa os afro-guianeses.
+Essa divisao e a fonte cronica de instabilidade politica num pais cuja riqueza so agora
+comeca a ser plenamente explorada.
+
+================================================================================
+PAIS: PARAGUAI
+================================================================================
+
+Governo atual: Santiago Pena (Partido Colorado / Asociacion Nacional Republicana),
+presidente desde agosto de 2023.
+
+════════════════════════════════════════
+EIXO 1 — ECONOMICO/SOCIAL (Esquerda <-> Direita)
+════════════════════════════════════════
+
+| Criterio                         | Peso | Nota (0-100) | Contribuicao |
+|----------------------------------|------|--------------|--------------|
+| Estado e mercado                 | 40%  | 62           | 24,8         |
+| Protecao social e redistribuicao | 35%  | 68           | 23,8         |
+| Valores culturais e costumes     | 25%  | 82           | 20,5         |
+| NOTA FINAL EIXO 1                | 100% | —            | 69,1         |
+
+Faixa Eixo 1: DIREITA (65–80)
+
+Justificativa por criterio:
+- Estado e mercado (62): O Paraguai tem economia de mercado com setor agroexportador
+  dominante (soja, carne bovina) e concentracao fundiaria extrema. O Estado mantem
+  participacao em empresas estrategicas (ANDE — energia, ESSAP — agua, Itaipu e Yacyreta
+  — hidroeletricas). O Colorado historicamente nao e de extremos: admite presenca estatal
+  onde e conveniente politicamente, mas nao interfere na logica do mercado agricola.
+- Protecao social (68): O programa Tekopora de transferencia condicional existe, mas o
+  sistema de bem-estar e dos mais fracos da regiao. Saude e educacao publicas sao
+  precarias. A logica e de mercado e de responsabilidade familiar, nao de Estado provedor.
+- Valores culturais (82): O Paraguai e um dos paises mais conservadores da America do
+  Sul. A Igreja Catolica tem influencia determinante na politica e na cultura. O aborto
+  e criminalizado mesmo em casos de estupro. Direitos LGBTQ+ tem protecao minima. O
+  guarani e o espanhol como linguas nacionais refletem identidade nacional forte.
+
+════════════════════════════════════════
+EIXO 2 — POLITICO (Libertario <-> Autoritario)
+════════════════════════════════════════
+
+| Criterio                          | Peso | Nota (0-100) | Contribuicao |
+|------------------------------------|------|--------------|--------------|
+| Democracia e alternancia de poder | 40%  | 52           | 20,8         |
+| Judiciario e Estado de Direito    | 30%  | 58           | 17,4         |
+| Liberdade de imprensa e expressao | 30%  | 48           | 14,4         |
+| NOTA FINAL EIXO 2                 | 100% | —            | 52,6         |
+
+Faixa Eixo 2: REGIME HIBRIDO (46–60)
+
+Justificativa por criterio:
+- Democracia e alternancia (52): O Partido Colorado governa o Paraguai de forma quase
+  ininterrupta desde 1947 (com excecao do governo Fernando Lugo, 2008-2012, que terminou
+  em impeachment controverso). A dominancia de um unico partido por mais de 70 anos,
+  combinada com controle de recursos estatais e patronagem, configura um regime hibrido
+  de facto, mesmo com eleicoes regulares.
+- Judiciario (58): O sistema judicial paraguaio e altamente politizado. O Senado nomeia
+  juizes da Corte Suprema em processo marcado por acordos partidarios. Escandalo da
+  "lista sete" — juizes comprometidos com o crime organizado e narcotrafico — revelou
+  a profundidade do problema.
+- Liberdade de imprensa (48): Ha meios de comunicacao independentes e criticos ao
+  governo. Mas jornalistas investigativos enfrentam pressoes, e a concentracao mediatica
+  nos grupos aliados ao Colorado limita o pluralismo efetivo.
+
+CLASSIFICACAO FINAL: DIREITA / REGIME HIBRIDO
+
+RESUMO:
+O Paraguai e governado pelo Partido Colorado em quase todo o seculo XX e XXI, tornando-o
+um dos casos mais longos de dominancia partidaria em regime formalmente democratico do
+mundo. Pena representa a ala mais tecnocrata do partido. O pais tem um dos menores
+impostos da regiao (flat tax de 10%), o que atrai capitais, mas tambem facilita lavagem
+de dinheiro e narcotrafico — Cidade do Leste e reconhecida como hub de comercio ilegal.
+Economicamente, o agronegocio e a geracao de energia (Itaipu/Yacyreta) sao os pilares.
+Socialmente, o Paraguai mantem valores altamente conservadores, com Igreja Catolica
+como ator politico central.
+
+================================================================================
+PAIS: PERU
+================================================================================
+
+Governo atual: Dina Boluarte, presidente desde dezembro de 2022 (assumiu apos o
+impeachment de Pedro Castillo). Eleicoes gerais previstas para abril de 2026.
+
+════════════════════════════════════════
+EIXO 1 — ECONOMICO/SOCIAL (Esquerda <-> Direita)
+════════════════════════════════════════
+
+| Criterio                         | Peso | Nota (0-100) | Contribuicao |
+|----------------------------------|------|--------------|--------------|
+| Estado e mercado                 | 40%  | 58           | 23,2         |
+| Protecao social e redistribuicao | 35%  | 62           | 21,7         |
+| Valores culturais e costumes     | 25%  | 65           | 16,25        |
+| NOTA FINAL EIXO 1                | 100% | —            | 61,15        |
+
+Faixa Eixo 1: CENTRO-DIREITA (55–64)
+
+Justificativa por criterio:
+- Estado e mercado (58): O Peru tem uma das economias mais abertas da America do Sul,
+  legado das reformas de Fujimori nos anos 1990. Boluarte nao tem agenda economica propria
+  e governa por sobrevivencia politica, mantendo o modelo de mercado aberto e apostando
+  em mineracao e agroexportacao como motores de crescimento.
+- Protecao social (62): O Peru tem sistema de protecao social fragmentado e insuficiente.
+  Boluarte manteve programas como Juntos (transferencia condicional) e Pensao 65, sem
+  expansao significativa. O gasto social per capita e baixo para a renda per capita do pais.
+- Valores culturais (65): A sociedade peruana e conservadora, especialmente nas regioes
+  andinas. Boluarte nao tem agenda cultural progressista. O Congresso, dominado pela
+  direita conservadora, tem posicoes francamente retraidas em pautas de genero e LGBTQ+.
+
+════════════════════════════════════════
+EIXO 2 — POLITICO (Libertario <-> Autoritario)
+════════════════════════════════════════
+
+| Criterio                          | Peso | Nota (0-100) | Contribuicao |
+|------------------------------------|------|--------------|--------------|
+| Democracia e alternancia de poder | 40%  | 62           | 24,8         |
+| Judiciario e Estado de Direito    | 30%  | 62           | 18,6         |
+| Liberdade de imprensa e expressao | 30%  | 50           | 15,0         |
+| NOTA FINAL EIXO 2                 | 100% | —            | 58,4         |
+
+Faixa Eixo 2: REGIME HIBRIDO (46–60)
+
+Justificativa por criterio:
+- Democracia e alternancia (62): O Peru acumulou 7 presidentes em menos de 10 anos.
+  O Congresso e o Executivo vivem em guerra permanente, com uso abusivo de ferramentas
+  constitucionais (vacancia presidencial, disolucion del Congreso). A repressao dos
+  protestos de 2022-2023, que deixou mais de 70 mortos, e investigada internacionalmente.
+  A democracia existe formalmente, mas as instituicoes estao profundamente corroidas.
+- Judiciario (62): O Peru e marcado por escandalo judicial cronico. O caso "Los Cuellos
+  Blancos del Puerto" revelou rede de juizes, fiscais e politicos negociando decisoes
+  judiciais. O Ministerio Publico e o Congresso sao investigados por corrupcao sistemica.
+  Boluarte e investigada por corrupcao e pelos mortos nos protestos.
+- Liberdade de imprensa (50): Ha imprensa critica ativa, mas o governo Boluarte editou
+  decretos ampliando poder das Forcas Armadas e houve relatos de assedio a jornalistas.
+  A autocensura em regioes e nos meios dependentes de publicidade oficial e real.
+
+CLASSIFICACAO FINAL: CENTRO-DIREITA / REGIME HIBRIDO
+
+RESUMO:
+O Peru e o caso mais evidente de democracia em colapso funcional na America do Sul sem
+ter se tornado formalmente autoritario. Boluarte governa sem legitimidade popular (aprovacao
+sistematicamente abaixo de 10%), amparada por um Congresso fragmentado e igualmente
+impopular. O pais e rico em recursos (cobre, ouro, gas) mas incapaz de converter essa
+riqueza em desenvolvimento social: quase metade da populacao trabalha na informalidade.
+As eleicoes de abril de 2026 ocorrem num quadro de extrema desconfianca institucional,
+com dezenas de candidatos e fragmentacao maxima do sistema partidario.
+
+================================================================================
+PAIS: SURINAME
+================================================================================
+
+Governo atual: Chan Santokhi (VHP — Vooruitstrevende Hervormings Partij), presidente
+desde julho de 2020. Eleicoes legislativas realizadas em maio de 2025 (resultado com
+possivel mudanca de governo ao longo de 2025).
+
+════════════════════════════════════════
+EIXO 1 — ECONOMICO/SOCIAL (Esquerda <-> Direita)
+════════════════════════════════════════
+
+| Criterio                         | Peso | Nota (0-100) | Contribuicao |
+|----------------------------------|------|--------------|--------------|
+| Estado e mercado                 | 40%  | 58           | 23,2         |
+| Protecao social e redistribuicao | 35%  | 60           | 21,0         |
+| Valores culturais e costumes     | 25%  | 62           | 15,5         |
+| NOTA FINAL EIXO 1                | 100% | —            | 59,7         |
+
+Faixa Eixo 1: CENTRO-DIREITA (55–64)
+
+Justificativa por criterio:
+- Estado e mercado (58): O Suriname tem setor publico historicamente relevante (bauxita,
+  petroleo via Staatsolie). Santokhi governou sob acordo com FMI, impondo ajuste fiscal
+  severo apos a crise herdada de Bouterse. Reducao de subsidios e privatizacoes parciais
+  compuseram a agenda economica. O pais aguarda producao de petroleo offshore que pode
+  transformar sua economia ainda nesta decada.
+- Protecao social (60): Cortes de subsidios impactaram populacao de baixa renda. O
+  Suriname nao tem sistema de bem-estar robusto; o ajuste com FMI aprofundou essa
+  limitacao. Programas sociais compensatorios foram implementados mas insuficientes.
+- Valores culturais (62): O Suriname e extremamente diverso etnicamente (hindustani,
+  javaneses, creoles, marrons, indigenas, chineses). O perfil e conservador: a
+  homossexualidade permaneceu criminalizada ate legislacao recente, e valores tradicionais
+  predominam nas diferentes comunidades.
+
+════════════════════════════════════════
+EIXO 2 — POLITICO (Libertario <-> Autoritario)
+════════════════════════════════════════
+
+| Criterio                          | Peso | Nota (0-100) | Contribuicao |
+|------------------------------------|------|--------------|--------------|
+| Democracia e alternancia de poder | 40%  | 35           | 14,0         |
+| Judiciario e Estado de Direito    | 30%  | 38           | 11,4         |
+| Liberdade de imprensa e expressao | 30%  | 35           | 10,5         |
+| NOTA FINAL EIXO 2                 | 100% | —            | 35,9         |
+
+Faixa Eixo 2: DEMOCRACIA CONSOLIDADA (21–35) — limiar superior
+
+Justificativa por criterio:
+- Democracia e alternancia (35): A alternancia ocorreu com a eleicao de Santokhi em 2020,
+  pondo fim a decadas de influencia de Desi Bouterse (ditador nos anos 1980, depois
+  presidente democraticamente eleito). O julgamento e condenacao de Bouterse pelos
+  assassinatos de dezembro de 1982 foi marco do Estado de Direito. O sistema democratico
+  funciona, ainda que com limitacoes de consolidacao.
+- Judiciario (38): A condenacao de Bouterse por um tribunal surinames demonstra
+  independencia relativa. Mas o sistema judicial e limitado em capacidade e sujeito
+  a influencias politicas.
+- Liberdade de imprensa (35): Ha pluralismo mediatico modesto. O Suriname tem bom
+  historico relativo para a regiao em liberdade de imprensa, mas concentracao e
+  limitacoes estruturais do mercado mediatico pequeno restringem o alcance.
+
+CLASSIFICACAO FINAL: CENTRO-DIREITA / DEMOCRACIA CONSOLIDADA
+
+RESUMO:
+O Suriname e uma das menores e menos conhecidas democracias da America do Sul, com apenas
+600 mil habitantes e historia colonial holandesa. O pais saiu de uma crise economica
+severa (2020-2022) — com inflacao acima de 60% — via acordo com FMI e ajuste duro.
+Santokhi governa num pais multilingue (holandes oficial, sranan tongo como lingua franca)
+e multietnicamente diverso. A grande expectativa e a producao de petroleo offshore
+(bloco Stabroek na fronteira com a Guiana), que pode transformar radicalmente a economia
+na segunda metade da decada. O legado autoritario de Bouterse e a sua condenacao historica
+por crimes contra a humanidade ainda moldam o debate politico surinames.
+
+================================================================================
+PAIS: URUGUAI
+================================================================================
+
+Governo atual: Yamandu Orsi (Frente Amplio), presidente desde marco de 2025.
+
+════════════════════════════════════════
+EIXO 1 — ECONOMICO/SOCIAL (Esquerda <-> Direita)
+════════════════════════════════════════
+
+| Criterio                         | Peso | Nota (0-100) | Contribuicao |
+|----------------------------------|------|--------------|--------------|
+| Estado e mercado                 | 40%  | 35           | 14,0         |
+| Protecao social e redistribuicao | 35%  | 28           | 9,8          |
+| Valores culturais e costumes     | 25%  | 18           | 4,5          |
+| NOTA FINAL EIXO 1                | 100% | —            | 28,3         |
+
+Faixa Eixo 1: ESQUERDA (21–35)
+
+Justificativa por criterio:
+- Estado e mercado (35): O Uruguai tem setor publico relevante e estrategico: ANCAP
+  (petroleo), UTE (eletricidade), ANTEL (telecomunicacoes), BSE (seguros), BHU (habitacao).
+  A Frente Amplio defende manutencao e fortalecimento dessas empresas. A economia e mista,
+  mas com participacao estatal acima da media regional. Orsi continuara essa orientacao.
+- Protecao social (28): O Uruguai tem o sistema de protecao social mais robusto da
+  America Latina, com saude universal (FONASA/SNIS), previdencia publica e privada,
+  seguro desemprego, assistencia social estruturada. A Frente Amplio historicamente
+  aprofundou esse sistema (reforma tributaria de Vazquez, reforma da saude).
+- Valores culturais (18): O Uruguai e o pais mais secular e culturalmente progressista
+  da America do Sul. Legalizo a maconha (2013), o casamento igualitario (2013), a
+  adocao por casais homoafetivos, o aborto legal ate 12 semanas (2012). Igreja Catolica
+  tem baixissima influencia politica. Laicismo e constitucional desde 1918.
+
+════════════════════════════════════════
+EIXO 2 — POLITICO (Libertario <-> Autoritario)
+════════════════════════════════════════
+
+| Criterio                          | Peso | Nota (0-100) | Contribuicao |
+|------------------------------------|------|--------------|--------------|
+| Democracia e alternancia de poder | 40%  | 15           | 6,0          |
+| Judiciario e Estado de Direito    | 30%  | 15           | 4,5          |
+| Liberdade de imprensa e expressao | 30%  | 15           | 4,5          |
+| NOTA FINAL EIXO 2                 | 100% | —            | 15,0         |
+
+Faixa Eixo 2: LIBERTARIO (0–20)
+
+Justificativa por criterio:
+- Democracia e alternancia (15): O Uruguai e referencia mundial em qualidade democratica.
+  As eleicoes de novembro de 2024 produziram alternancia pacifica do governo de Luis
+  Lacalle Pou (centro-direita) para Yamandu Orsi (centro-esquerda). Indice de Democracy
+  Index da EIU consistentemente coloca o Uruguai entre as 15 democracias mais plenas
+  do mundo.
+- Judiciario (15): O Poder Judiciario uruguaio e reconhecidamente independente. Rule
+  of law solido. Casos de corrupcao sao investigados e punidos sem interferencia
+  sistematica do Executivo.
+- Liberdade de imprensa (15): O Uruguai ocupa consistentemente posicao de destaque
+  no Ranking Mundial de Liberdade de Imprensa da RSF (Reporters Sans Frontieres),
+  frequentemente entre os 20 primeiros no mundo. Pluralismo genuino, imprensa critica
+  ativa, protecao efetiva a jornalistas.
+
+CLASSIFICACAO FINAL: ESQUERDA LIBERTARIA / DEMOCRACIA CONSOLIDADA
+
+RESUMO:
+O Uruguai e a excecao sul-americana: combina esquerda programatica com institucoes
+democraticas exemplares. Orsi, ex-prefeito de Canelones e discipulo de Jose Mujica,
+sucedeu ao governo de Lacalle Pou numa alternancia limpa e sem contestacao. A Frente
+Amplio retornou ao poder com agenda de retomada das reformas sociais, revisao de algumas
+privatizacoes e aprofundamento das politicas de protecao social. O pais tem renda per
+capita alta para a regiao, classe media robusta e baixa desigualdade relativa. Seus
+indicadores de governanca, transparencia, liberdade de imprensa e qualidade democratica
+o colocam consistentemente no topo da America Latina — e entre os melhores do mundo.
+
+================================================================================
+PAIS: VENEZUELA
+================================================================================
+
+Governo atual: Nicolas Maduro (PSUV — Partido Socialista Unido de Venezuela), presidente
+desde 2013. Reeleito de forma fraudulenta em julho de 2024, sem apresentacao das atas
+eleitorais; oposicao (Edmundo Gonzalez) obteve maioria segundo contagem independente.
+
+════════════════════════════════════════
+EIXO 1 — ECONOMICO/SOCIAL (Esquerda <-> Direita)
+════════════════════════════════════════
+
+| Criterio                         | Peso | Nota (0-100) | Contribuicao |
+|----------------------------------|------|--------------|--------------|
+| Estado e mercado                 | 40%  | 15           | 6,0          |
+| Protecao social e redistribuicao | 35%  | 18           | 6,3          |
+| Valores culturais e costumes     | 25%  | 42           | 10,5         |
+| NOTA FINAL EIXO 1                | 100% | —            | 22,8         |
+
+Faixa Eixo 1: ESQUERDA (21–35) — limiar inferior / quasi extrema esquerda
+
+Justificativa por criterio:
+- Estado e mercado (15): O Socialismo do Seculo XXI estatizou massivamente a economia
+  venezuelana: PDVSA (petroleo), industrias basicas do Orinoco (aco, aluminio), empresas
+  agroindustriais, meios de comunicacao. Apos o colapso economico, o governo adotou
+  pragmatismo parcial (dolarizacao informal desde 2019, abertura limitada a pequenos
+  comercios privados), mas o Estado ainda domina os setores estrategicos.
+- Protecao social (18): As Missoes Sociais (Barrio Adentro, Robinson, Ribas, Mercal)
+  foram instrumentos de distribuicao na era Chavez. Com a crise economica a partir de
+  2013, o sistema de protecao social entrou em colapso. A Venezuela vive crise
+  humanitaria com escassez de alimentos e medicamentos: o socialismo declarado nao se
+  traduz em protecao social efetiva na pratica atual.
+- Valores culturais (42): O chavismo tem retórica anti-imperialista mas nao e um
+  movimento socialmente progressista classico. O machismo e enraizado na cultura
+  politica venezuelana. Ha alguma abertura formal a direitos de minorias, mas sem
+  agenda LGBTQ+ avancada. O predomio e de valores tradicionais sob verniz socialista.
+
+════════════════════════════════════════
+EIXO 2 — POLITICO (Libertario <-> Autoritario)
+════════════════════════════════════════
+
+| Criterio                          | Peso | Nota (0-100) | Contribuicao |
+|------------------------------------|------|--------------|--------------|
+| Democracia e alternancia de poder | 40%  | 92           | 36,8         |
+| Judiciario e Estado de Direito    | 30%  | 92           | 27,6         |
+| Liberdade de imprensa e expressao | 30%  | 90           | 27,0         |
+| NOTA FINAL EIXO 2                 | 100% | —            | 91,4         |
+
+Faixa Eixo 2: AUTORITARIO (81–100)
+
+Justificativa por criterio:
+- Democracia e alternancia (92): As eleicoes de julho de 2024 sao o caso mais emblematico
+  de fraude eleitoral recente da America Latina. Maduro declarou vitoria sem apresentar
+  atas — o candidato opositor Edmundo Gonzalez obteve maioria segundo contagem
+  independente publicada pela propria oposicao. Nao ha mecanismo de alternancia real
+  de poder. Lideres opositores foram presos, exilados ou impedidos de competir.
+  Maria Corina Machado, principal lideranca da oposicao, foi proibida de se candidatar.
+- Judiciario (92): O Tribunal Supremo de Justicia e instrumento do Executivo. Decisoes
+  politicamente inconvenientes sao revertidas por indicacao direta. O Ministerio Publico
+  (Tareck William Saab) age como brac do regime. Nao ha separacao real de poderes.
+- Liberdade de imprensa (90): Meios independentes foram fechados, comprados por
+  testas-de-ferro do governo ou levados ao silencio pelo controle do papel de imprensa
+  e da publicidade oficial. A CONATEL (reguladora) e instrumento de censura. Radio e
+  TV criticas foram fechadas. Bloqueio de Internet em momentos criticos (eleicoes 2024).
+  Jornalistas sao presos sob leis de "odio" e "terrorismo".
+
+CLASSIFICACAO FINAL: ESQUERDA AUTORITARIA
+
+RESUMO:
+A Venezuela e o regime mais autoritario da America do Sul e um dos mais fechados do
+mundo. Maduro governa por coercao: forcas de seguranca (SEBIN, FAES, coletivos armados)
+reprimem a oposicao com prisoes arbitrarias, torturas e execucoes extrajudiciais
+documentadas pela ONU. A economia, que foi a mais rica da regiao por decadas, colapsou:
+o PIB caiu mais de 70% entre 2013 e 2021 — o maior colapso economico de um pais em
+paz na historia moderna. Mais de 7,7 milhoes de venezolanos emigraram, formando uma
+das maiores crises de refugiados do mundo ocidental. A fraude eleitoral de 2024 gerou
+nova onda de repressao: centenas de presos politicos, opositores exilados e liderancas
+da sociedade civil perseguidas. Edmundo Gonzalez, reconhecido por dezenas de paises
+como presidente eleito, governa simbolicamente a partir do exilio.
+
+================================================================================
+FIM DO DOCUMENTO
+================================================================================
