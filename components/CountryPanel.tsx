@@ -145,7 +145,7 @@ export default function CountryPanel() {
       top: 0,
       right: 0,
       height: "100%",
-      width: "320px",
+      width: "420px",
       background: "rgba(8,11,18,0.94)",
       borderLeft: "1px solid #1e2d42",
       backdropFilter: "blur(20px)",
@@ -162,7 +162,7 @@ export default function CountryPanel() {
         display: "flex",
         alignItems: "center",
         justifyContent: "space-between",
-        padding: "20px 20px 16px",
+        padding: "24px 28px 20px",
         borderBottom: "1px solid #1e2d42",
         position: "sticky",
         top: 0,
@@ -186,11 +186,11 @@ export default function CountryPanel() {
       </div>
 
       {selected && (
-        <div style={{ padding: "20px", display: "flex", flexDirection: "column", gap: "18px" }}>
+        <div style={{ padding: "24px 28px", display: "flex", flexDirection: "column", gap: "22px" }}>
 
           {/* ── Nome do país ───────────────────────────────────────── */}
           <div>
-            <p style={{ fontSize: "24px", fontWeight: 300, color: "#e8f0fe", lineHeight: 1.2, margin: 0 }}>
+            <p style={{ fontSize: "28px", fontWeight: 300, color: "#e8f0fe", lineHeight: 1.2, margin: 0 }}>
               {selected.name}
             </p>
             {selected.capital && (
@@ -228,7 +228,7 @@ export default function CountryPanel() {
                 <p style={{ fontSize: "9px", color: "#4a5568", letterSpacing: "0.18em", textTransform: "uppercase", margin: "0 0 6px" }}>
                   Governo Atual
                 </p>
-                <p style={{ fontSize: "16px", fontWeight: 400, color: "#e8f0fe", margin: "0 0 2px" }}>
+                <p style={{ fontSize: "18px", fontWeight: 400, color: "#e8f0fe", margin: "0 0 4px" }}>
                   {data.presidente}
                 </p>
                 <p style={{ fontSize: "10px", color: "#6b7fa3", margin: 0 }}>
@@ -335,7 +335,7 @@ export default function CountryPanel() {
                 <p style={{ fontSize: "9px", color: "#4a5568", letterSpacing: "0.18em", textTransform: "uppercase", margin: "0 0 8px" }}>
                   Contexto
                 </p>
-                <p style={{ fontSize: "11px", color: "#6b7fa3", lineHeight: 1.65, margin: 0 }}>
+                <p style={{ fontSize: "12px", color: "#6b7fa3", lineHeight: 1.7, margin: 0 }}>
                   {data.resumo}
                 </p>
               </div>
