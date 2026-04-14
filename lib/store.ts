@@ -22,7 +22,7 @@ export const useGlobeStore = create<GlobeState>((set) => ({
   hoveredCountry: null,
   selectedCountry: null,
   mousePosition: { x: 0, y: 0 },
-  showIdeology: false,
+  showIdeology: true,
   setHovered: (c) => set({ hoveredCountry: c }),
   setSelected: (c) => set({ selectedCountry: c }),
   setMousePosition: (x, y) => set({ mousePosition: { x, y } }),
