@@ -9,7 +9,6 @@ import {
   type DemocracyLabel,
 } from "@/lib/classification";
 
-// ─── Labels legíveis ──────────────────────────────────────────────────────────
 const EIXO1_LABEL: Record<IdeologyLabel, string> = {
   "extrema-esquerda": "Extrema-Esquerda",
   "esquerda":         "Esquerda",
@@ -29,115 +28,66 @@ const EIXO2_LABEL: Record<DemocracyLabel, string> = {
   "autoritário":            "Autoritário",
 };
 
-// ─── Ícone spectrum (eixo 1) ──────────────────────────────────────────────────
-function SpectrumBar({ value, color }: { value: number; color: string }) {
-  // value: 0–100, 0=esquerda, 100=direita
-  const pct = Math.max(0, Math.min(100, value));
+// Barra de espectro simples — sem marcador flutuante, só fill colorido
+function ScoreBar({ value, color, max = 100 }: { value: number; color: string; max?: number }) {
+  const pct = Math.round((value / max) * 100);
   return (
-    <div style={{ position: "relative", height: "6px", borderRadius: "3px", overflow: "hidden",
-      background: "linear-gradient(to right, #8B0000, #c0392b, #e57373, #78909c, #5b8fd4, #1a5276, #0a2744)" }}>
-      {/* marcador de posição */}
+    <div style={{ height: "8px", background: "#141c2a", borderRadius: "4px", overflow: "hidden" }}>
       <div style={{
-        position: "absolute",
-        left: `calc(${pct}% - 5px)`,
-        top: "-3px",
-        width: "10px",
-        height: "12px",
-        borderRadius: "2px",
+        height: "100%",
+        width: `${pct}%`,
         background: color,
-        border: "2px solid #e8f0fe",
-        boxShadow: `0 0 8px ${color}80`,
-        transition: "left 0.4s ease",
+        borderRadius: "4px",
+        transition: "width 0.4s ease",
       }} />
     </div>
   );
 }
 
-// ─── Ícone democracia (eixo 2) ────────────────────────────────────────────────
-function DemocracyBar({ value, color }: { value: number; color: string }) {
-  // value: 0=livre, 100=autoritário
-  const pct = Math.max(0, Math.min(100, value));
-  return (
-    <div style={{ position: "relative", height: "6px", borderRadius: "3px", overflow: "hidden",
-      background: "linear-gradient(to right, #27ae60, #2ecc71, #f39c12, #e67e22, #c0392b, #7b241c)" }}>
-      <div style={{
-        position: "absolute",
-        left: `calc(${pct}% - 5px)`,
-        top: "-3px",
-        width: "10px",
-        height: "12px",
-        borderRadius: "2px",
-        background: color,
-        border: "2px solid #e8f0fe",
-        boxShadow: `0 0 8px ${color}80`,
-        transition: "left 0.4s ease",
-      }} />
-    </div>
-  );
-}
-
-// ─── Mini barra horizontal para os blocos ────────────────────────────────────
-function MiniBar({ label, value, color, inverted = false }: {
-  label: string; value: number; color: string; inverted?: boolean;
+// Linha de métrica: rótulo + barra + valor
+function MetricRow({ label, value, color, max = 100 }: {
+  label: string; value: number; color: string; max?: number;
 }) {
-  const pct = inverted ? 100 - value : value;
   return (
-    <div>
-      <div style={{ display: "flex", justifyContent: "space-between", marginBottom: "4px" }}>
-        <span style={{ fontSize: "9px", color: "#4a5568", letterSpacing: "0.06em" }}>{label}</span>
-        <span style={{ fontSize: "9px", color: "#4a5568" }}>{value}/100</span>
+    <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
+      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline" }}>
+        <span style={{ fontSize: "13px", color: "#8a9ab8" }}>{label}</span>
+        <span style={{ fontSize: "13px", fontWeight: 500, color: "#c8d8f0" }}>{value}</span>
       </div>
-      <div style={{ height: "3px", background: "#1e2d42", borderRadius: "2px" }}>
-        <div style={{
-          height: "100%",
-          width: `${pct}%`,
-          background: color,
-          borderRadius: "2px",
-          opacity: 0.75,
-          transition: "width 0.4s ease",
-        }} />
-      </div>
+      <ScoreBar value={value} color={color} max={max} />
     </div>
   );
 }
 
-// ─── Chip badge ──────────────────────────────────────────────────────────────
-function Badge({ label, color }: { label: string; color: string }) {
+function Divider() {
+  return <div style={{ height: "1px", background: "#1a2336" }} />;
+}
+
+function SectionTitle({ children }: { children: React.ReactNode }) {
   return (
-    <span style={{
-      display: "inline-flex",
-      alignItems: "center",
-      gap: "6px",
-      background: `${color}22`,
-      border: `1px solid ${color}55`,
-      borderRadius: "5px",
-      padding: "3px 10px",
-      fontSize: "10px",
-      fontWeight: 500,
-      letterSpacing: "0.12em",
-      color: color,
+    <p style={{
+      fontSize: "11px",
+      fontWeight: 600,
+      letterSpacing: "0.16em",
       textTransform: "uppercase",
-      whiteSpace: "nowrap",
+      color: "#3d5070",
+      margin: 0,
     }}>
-      <div style={{ width: "6px", height: "6px", borderRadius: "50%", background: color, flexShrink: 0 }} />
-      {label}
-    </span>
+      {children}
+    </p>
   );
 }
 
-// ─── Separador ───────────────────────────────────────────────────────────────
-function Sep() {
-  return <div style={{ height: "1px", background: "#1e2d42", margin: "2px 0" }} />;
-}
-
-// ─── Painel principal ─────────────────────────────────────────────────────────
 export default function CountryPanel() {
   const selected    = useGlobeStore((s) => s.selectedCountry);
   const setSelected = useGlobeStore((s) => s.setSelected);
   const open = !!selected;
 
-  const data = selected ? COUNTRY_CLASSIFICATIONS[selected.iso] : null;
+  const data    = selected ? COUNTRY_CLASSIFICATIONS[selected.iso] : null;
   const isState = selected?.iso.startsWith("BR-");
+
+  const ideologyColor  = data ? IDEOLOGY_COLORS[data.labelEixo1]  : "#78909c";
+  const democracyColor = data ? DEMOCRACY_COLORS[data.labelEixo2] : "#78909c";
 
   return (
     <aside style={{
@@ -145,208 +95,222 @@ export default function CountryPanel() {
       top: 0,
       right: 0,
       height: "100%",
-      width: "420px",
-      background: "rgba(8,11,18,0.94)",
-      borderLeft: "1px solid #1e2d42",
-      backdropFilter: "blur(20px)",
+      width: "460px",
+      background: "#0b111d",
+      borderLeft: "1px solid #1a2336",
       zIndex: 40,
       transform: open ? "translateX(0)" : "translateX(100%)",
-      transition: "transform 0.3s cubic-bezier(0.16,1,0.3,1)",
+      transition: "transform 0.35s cubic-bezier(0.16,1,0.3,1)",
       display: "flex",
       flexDirection: "column",
       overflowY: "auto",
     }}>
 
-      {/* ── Cabeçalho ─────────────────────────────────────────────── */}
+      {/* ── Topo colorido com nome do país ───────────────────────── */}
       <div style={{
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "space-between",
-        padding: "24px 28px 20px",
-        borderBottom: "1px solid #1e2d42",
-        position: "sticky",
-        top: 0,
-        background: "rgba(8,11,18,0.97)",
-        zIndex: 1,
+        padding: "32px 36px 28px",
+        borderBottom: "1px solid #1a2336",
+        position: "relative",
       }}>
-        <span style={{ fontSize: "9px", letterSpacing: "0.22em", color: "#6b7fa3", textTransform: "uppercase" }}>
-          {isState ? "Estado — Brasil" : "Análise Política"}
-        </span>
+        {/* Faixa de cor ideológica no topo */}
+        {data && (
+          <div style={{
+            position: "absolute",
+            top: 0, left: 0, right: 0,
+            height: "4px",
+            background: ideologyColor,
+          }} />
+        )}
+
+        {/* Botão fechar */}
         <button
           onClick={() => setSelected(null)}
-          style={{ background: "none", border: "none", cursor: "pointer", color: "#6b7fa3",
-            padding: "4px", display: "flex", alignItems: "center", borderRadius: "4px" }}
+          style={{
+            position: "absolute", top: "20px", right: "24px",
+            background: "none", border: "none", cursor: "pointer",
+            color: "#3d5070", padding: "6px",
+            display: "flex", alignItems: "center", borderRadius: "4px",
+            transition: "color 0.15s",
+          }}
           onMouseEnter={(e) => (e.currentTarget.style.color = "#e8f0fe")}
-          onMouseLeave={(e) => (e.currentTarget.style.color = "#6b7fa3")}
+          onMouseLeave={(e) => (e.currentTarget.style.color = "#3d5070")}
         >
-          <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-            <path d="M2 2L12 12M12 2L2 12" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+            <path d="M3 3L13 13M13 3L3 13" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round"/>
           </svg>
         </button>
+
+        {/* Nome */}
+        <h1 style={{
+          fontSize: "32px",
+          fontWeight: 300,
+          color: "#e8f0fe",
+          margin: "12px 0 6px",
+          lineHeight: 1.1,
+        }}>
+          {selected?.name}
+        </h1>
+
+        {/* Capital · Continente */}
+        {selected?.capital && (
+          <p style={{ fontSize: "14px", color: "#4a6080", margin: 0 }}>
+            {selected.capital}
+            {selected.continent && <> &middot; {selected.continent}</>}
+          </p>
+        )}
       </div>
 
+      {/* ── Conteúdo ──────────────────────────────────────────────── */}
       {selected && (
-        <div style={{ padding: "24px 28px", display: "flex", flexDirection: "column", gap: "22px" }}>
+        <div style={{ padding: "28px 36px", display: "flex", flexDirection: "column", gap: "28px" }}>
 
-          {/* ── Nome do país ───────────────────────────────────────── */}
-          <div>
-            <p style={{ fontSize: "28px", fontWeight: 300, color: "#e8f0fe", lineHeight: 1.2, margin: 0 }}>
-              {selected.name}
-            </p>
-            {selected.capital && (
-              <p style={{ fontSize: "11px", color: "#4a5568", marginTop: "4px" }}>
-                Capital: <span style={{ color: "#8a9ab8" }}>{selected.capital}</span>
-                {selected.continent && (
-                  <> · <span style={{ color: "#8a9ab8" }}>{selected.continent}</span></>
-                )}
-              </p>
-            )}
-          </div>
-
-          {/* ── Sem dados políticos (estado BR ou país sem classificação) ── */}
+          {/* Sem dados */}
           {!data && (
-            <div style={{
-              background: "#0f1520",
-              border: "1px solid #1e2d42",
-              borderRadius: "8px",
-              padding: "16px",
-              textAlign: "center",
-            }}>
-              <span style={{ fontSize: "11px", color: "#3a4455" }}>
-                {isState
-                  ? "Análise estadual em desenvolvimento"
-                  : "País sem classificação registrada"}
-              </span>
-            </div>
+            <p style={{ fontSize: "14px", color: "#3d5070", margin: 0 }}>
+              {isState
+                ? "Análise estadual em desenvolvimento."
+                : "Nenhuma classificação registrada para este país."}
+            </p>
           )}
 
-          {/* ── Dados políticos ────────────────────────────────────── */}
           {data && (
             <>
-              {/* Presidente */}
-              <div style={{ background: "#0d1625", borderRadius: "8px", padding: "14px", border: "1px solid #1e2d42" }}>
-                <p style={{ fontSize: "9px", color: "#4a5568", letterSpacing: "0.18em", textTransform: "uppercase", margin: "0 0 6px" }}>
-                  Governo Atual
-                </p>
-                <p style={{ fontSize: "18px", fontWeight: 400, color: "#e8f0fe", margin: "0 0 4px" }}>
-                  {data.presidente}
-                </p>
-                <p style={{ fontSize: "10px", color: "#6b7fa3", margin: 0 }}>
-                  {data.partido}
-                </p>
-                <p style={{ fontSize: "9px", color: "#3a4455", margin: "4px 0 0" }}>
-                  Desde {data.desde}
-                </p>
-              </div>
-
-              <Sep />
-
-              {/* EIXO 1 — Econômico/Social */}
-              <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
-                <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
-                  <span style={{ fontSize: "9px", color: "#4a5568", letterSpacing: "0.18em", textTransform: "uppercase" }}>
-                    Espectro Econômico
-                  </span>
-                  <Badge label={EIXO1_LABEL[data.labelEixo1]} color={IDEOLOGY_COLORS[data.labelEixo1]} />
-                </div>
-
-                {/* Barra gradiente */}
-                <SpectrumBar value={data.eixo1} color={IDEOLOGY_COLORS[data.labelEixo1]} />
-                <div style={{ display: "flex", justifyContent: "space-between" }}>
-                  <span style={{ fontSize: "8px", color: "#3a4455" }}>← Esq.</span>
-                  <span style={{ fontSize: "8px", color: "#3a4455" }}>Dir. →</span>
-                </div>
-
-                {/* Blocos detalhados */}
-                <div style={{ display: "flex", flexDirection: "column", gap: "7px", marginTop: "2px" }}>
-                  <MiniBar
-                    label="Estado vs. Mercado"
-                    value={data.blocos.estadoMercado}
-                    color={IDEOLOGY_COLORS[data.labelEixo1]}
-                  />
-                  <MiniBar
-                    label="Proteção Social"
-                    value={data.blocos.protecaoSocial}
-                    color={IDEOLOGY_COLORS[data.labelEixo1]}
-                    inverted
-                  />
-                  <MiniBar
-                    label="Conservadorismo Cultural"
-                    value={data.blocos.valoresCulturais}
-                    color={IDEOLOGY_COLORS[data.labelEixo1]}
-                  />
-                </div>
-
-                <div style={{ display: "flex", justifyContent: "space-between", marginTop: "2px" }}>
-                  <span style={{ fontSize: "8px", color: "#3a4455" }}>← mais estatal · mais liberal →</span>
-                  <span style={{ fontSize: "9px", fontWeight: 500, color: IDEOLOGY_COLORS[data.labelEixo1] }}>
-                    {data.eixo1.toFixed(1)}/100
-                  </span>
+              {/* ── Governo ──────────────────────────────────────── */}
+              <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
+                <SectionTitle>Governo</SectionTitle>
+                <div>
+                  <p style={{ fontSize: "20px", fontWeight: 400, color: "#e8f0fe", margin: "0 0 4px" }}>
+                    {data.presidente}
+                  </p>
+                  <p style={{ fontSize: "14px", color: "#5a7090", margin: "0 0 2px" }}>
+                    {data.partido}
+                  </p>
+                  <p style={{ fontSize: "13px", color: "#3d5070", margin: 0 }}>
+                    No poder desde {data.desde}
+                  </p>
                 </div>
               </div>
 
-              <Sep />
+              <Divider />
 
-              {/* EIXO 2 — Político/Institucional */}
-              <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
-                <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
-                  <span style={{ fontSize: "9px", color: "#4a5568", letterSpacing: "0.18em", textTransform: "uppercase" }}>
-                    Qualidade Democrática
+              {/* ── Posição Ideológica ────────────────────────────── */}
+              <div style={{ display: "flex", flexDirection: "column", gap: "16px" }}>
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                  <SectionTitle>Posição Ideológica</SectionTitle>
+                  <span style={{
+                    fontSize: "13px",
+                    fontWeight: 600,
+                    color: ideologyColor,
+                    letterSpacing: "0.04em",
+                  }}>
+                    {EIXO1_LABEL[data.labelEixo1]}
                   </span>
-                  <Badge label={EIXO2_LABEL[data.labelEixo2]} color={DEMOCRACY_COLORS[data.labelEixo2]} />
                 </div>
 
-                <DemocracyBar value={data.eixo2} color={DEMOCRACY_COLORS[data.labelEixo2]} />
-                <div style={{ display: "flex", justifyContent: "space-between" }}>
-                  <span style={{ fontSize: "8px", color: "#3a4455" }}>← Livre</span>
-                  <span style={{ fontSize: "8px", color: "#3a4455" }}>Autoritário →</span>
+                {/* Barra espectro esq → dir */}
+                <div>
+                  <div style={{
+                    height: "10px",
+                    borderRadius: "5px",
+                    background: "linear-gradient(to right, #8B0000, #c0392b, #e57373, #78909c, #5b8fd4, #1a5276, #0a2744)",
+                    position: "relative",
+                    marginBottom: "6px",
+                  }}>
+                    <div style={{
+                      position: "absolute",
+                      left: `calc(${data.eixo1}% - 7px)`,
+                      top: "-4px",
+                      width: "14px",
+                      height: "18px",
+                      borderRadius: "3px",
+                      background: "#0b111d",
+                      border: `2px solid ${ideologyColor}`,
+                      boxShadow: `0 0 10px ${ideologyColor}88`,
+                    }} />
+                  </div>
+                  <div style={{ display: "flex", justifyContent: "space-between" }}>
+                    <span style={{ fontSize: "12px", color: "#3d5070" }}>Esquerda</span>
+                    <span style={{ fontSize: "12px", color: "#3d5070" }}>Direita</span>
+                  </div>
                 </div>
 
-                <div style={{ display: "flex", flexDirection: "column", gap: "7px", marginTop: "2px" }}>
-                  <MiniBar
-                    label="Alternância de Poder"
-                    value={data.democracia.alternancia}
-                    color={DEMOCRACY_COLORS[data.labelEixo2]}
-                  />
-                  <MiniBar
-                    label="Independência Judicial"
-                    value={data.democracia.judiciario}
-                    color={DEMOCRACY_COLORS[data.labelEixo2]}
-                  />
-                  <MiniBar
-                    label="Liberdade de Imprensa"
-                    value={data.democracia.imprensa}
-                    color={DEMOCRACY_COLORS[data.labelEixo2]}
-                  />
-                </div>
-
-                <div style={{ display: "flex", justifyContent: "space-between", marginTop: "2px" }}>
-                  <span style={{ fontSize: "8px", color: "#3a4455" }}>← democrático · autoritário →</span>
-                  <span style={{ fontSize: "9px", fontWeight: 500, color: DEMOCRACY_COLORS[data.labelEixo2] }}>
-                    {data.eixo2.toFixed(1)}/100
-                  </span>
+                {/* Três métricas */}
+                <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
+                  <MetricRow label="Intervenção do Estado" value={100 - data.blocos.estadoMercado} color={ideologyColor} />
+                  <MetricRow label="Proteção Social"       value={100 - data.blocos.protecaoSocial} color={ideologyColor} />
+                  <MetricRow label="Conservadorismo Cultural" value={data.blocos.valoresCulturais} color={ideologyColor} />
                 </div>
               </div>
 
-              <Sep />
+              <Divider />
 
-              {/* Resumo */}
-              <div>
-                <p style={{ fontSize: "9px", color: "#4a5568", letterSpacing: "0.18em", textTransform: "uppercase", margin: "0 0 8px" }}>
-                  Contexto
-                </p>
-                <p style={{ fontSize: "12px", color: "#6b7fa3", lineHeight: 1.7, margin: 0 }}>
+              {/* ── Qualidade Democrática ─────────────────────────── */}
+              <div style={{ display: "flex", flexDirection: "column", gap: "16px" }}>
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                  <SectionTitle>Qualidade Democrática</SectionTitle>
+                  <span style={{
+                    fontSize: "13px",
+                    fontWeight: 600,
+                    color: democracyColor,
+                    letterSpacing: "0.04em",
+                  }}>
+                    {EIXO2_LABEL[data.labelEixo2]}
+                  </span>
+                </div>
+
+                {/* Barra democracia → autoritarismo */}
+                <div>
+                  <div style={{
+                    height: "10px",
+                    borderRadius: "5px",
+                    background: "linear-gradient(to right, #27ae60, #f39c12, #c0392b, #7b241c)",
+                    position: "relative",
+                    marginBottom: "6px",
+                  }}>
+                    <div style={{
+                      position: "absolute",
+                      left: `calc(${data.eixo2}% - 7px)`,
+                      top: "-4px",
+                      width: "14px",
+                      height: "18px",
+                      borderRadius: "3px",
+                      background: "#0b111d",
+                      border: `2px solid ${democracyColor}`,
+                      boxShadow: `0 0 10px ${democracyColor}88`,
+                    }} />
+                  </div>
+                  <div style={{ display: "flex", justifyContent: "space-between" }}>
+                    <span style={{ fontSize: "12px", color: "#3d5070" }}>Democracia Plena</span>
+                    <span style={{ fontSize: "12px", color: "#3d5070" }}>Autoritarismo</span>
+                  </div>
+                </div>
+
+                <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
+                  <MetricRow label="Alternância de Poder"   value={100 - data.democracia.alternancia} color={democracyColor} />
+                  <MetricRow label="Independência Judicial" value={100 - data.democracia.judiciario}  color={democracyColor} />
+                  <MetricRow label="Liberdade de Imprensa"  value={100 - data.democracia.imprensa}    color={democracyColor} />
+                </div>
+              </div>
+
+              <Divider />
+
+              {/* ── Contexto ──────────────────────────────────────── */}
+              <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
+                <SectionTitle>Contexto</SectionTitle>
+                <p style={{
+                  fontSize: "14px",
+                  color: "#7a90b0",
+                  lineHeight: 1.75,
+                  margin: 0,
+                }}>
                   {data.resumo}
                 </p>
               </div>
 
               {/* Rodapé */}
-              <div style={{ textAlign: "center", paddingTop: "4px" }}>
-                <span style={{ fontSize: "8px", color: "#252f3e", letterSpacing: "0.1em" }}>
-                  GEOPOLITIKA · ABR/2026
-                </span>
-              </div>
-
+              <p style={{ fontSize: "11px", color: "#1e2d42", textAlign: "center", margin: 0 }}>
+                GEOPOLITIKA · Abril 2026
+              </p>
             </>
           )}
         </div>
